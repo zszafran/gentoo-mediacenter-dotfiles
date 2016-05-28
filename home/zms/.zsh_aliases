@@ -7,7 +7,7 @@ dotfile-changes() {
 }
 
 dotfile-add() {
-  sudo git --git-dir=${GIT_DIR} --work-tree=${GIT_WORK_TREE} add $1
+  sudo git --git-dir=${GIT_DIR} --work-tree=${GIT_WORK_TREE} add -f $1
 }
 
 dotfile-submit() {
