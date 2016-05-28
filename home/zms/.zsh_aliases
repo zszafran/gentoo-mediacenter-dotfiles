@@ -1,0 +1,19 @@
+GIT_DIR="/repo/.git"
+GIT_WORK_TREE="/"
+
+dotfile-changes() {
+  sudo git --git-dir=${GIT_DIR} --work-tree=${GIT_WORK_TREE} add -u
+  sudo git --git-dir=${GIT_DIR} --work-tree=${GIT_WORK_TREE} status -uno
+}
+
+dotfile-add() {
+  sudo git --git-dir=${GIT_DIR} --work-tree=${GIT_WORK_TREE} add $1
+}
+
+dotfile-submit() {
+  sudo git --git-dir=${GIT_DIR} --work-tree=${GIT_WORK_TREE} add -u
+  sudo git --git-dir=${GIT_DIR} --work-tree=${GIT_WORK_TREE} commit -m "dotfiles"
+  sudo git --git-dir=${GIT_DIR} --work-tree=${GIT_WORK_TREE} push --force upstream
+}
+
+alias sys="sudo systemctl"

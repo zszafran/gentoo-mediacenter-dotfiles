@@ -1,0 +1,11 @@
+# $Id$
+
+# Configures the CG Runtime environment for Bourne shell and compatible shells
+CG_COMPILER_EXE=/opt/bin/cgc
+CG_INC_PATH=/opt/nvidia-cg-toolkit/include
+CG_LIB_PATH="/opt/nvidia-cg-toolkit/lib64"
+
+PATH="/opt/nvidia-cg-toolkit/bin"
+ROOTPATH="/opt/nvidia-cg-toolkit/bin"
+
+LDPATH="/opt/nvidia-cg-toolkit/lib64"
