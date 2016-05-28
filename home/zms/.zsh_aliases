@@ -13,7 +13,7 @@ dotfile-add() {
 dotfile-submit() {
   sudo git --git-dir=${GIT_DIR} --work-tree=${GIT_WORK_TREE} add -u
   sudo git --git-dir=${GIT_DIR} --work-tree=${GIT_WORK_TREE} commit -m "dotfiles"
-  sudo git --git-dir=${GIT_DIR} --work-tree=${GIT_WORK_TREE} push --force upstream
+  sudo git --git-dir=${GIT_DIR} --work-tree=${GIT_WORK_TREE} push --force origin master
 }
 
 alias sys="sudo systemctl"
