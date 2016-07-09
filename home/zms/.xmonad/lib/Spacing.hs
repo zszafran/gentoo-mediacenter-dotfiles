@@ -33,3 +33,4 @@ instance LayoutModifier Spacing a where
 
 shrinkRect :: Int -> Rectangle -> Rectangle
 shrinkRect p (Rectangle x y w h) = Rectangle (x+fi p) (y+fi p) (w-2*fi p) (h-2*fi p)
+

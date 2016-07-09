@@ -10,3 +10,4 @@ urxvtd --quiet --opendisplay --fork &
 synapse &
 pulseaudio --start -D &
 exec xmonad
+

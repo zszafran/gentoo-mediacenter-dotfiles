@@ -1,4 +1,4 @@
-⎈URxvt*geometry: 240x84
+âURxvt*geometry: 240x84
 URxvt*loginShell: true
 URxvt*scrollColor: #777777
 URxvt*scrollstyle: plain
@@ -71,4 +71,5 @@ URxvt.keysym.Control-Right: \033[1;5C
 dzen2.font: xft:inconsolata for powerline:pixelsize:10
 dzen2.foreground: #C5C5C5
 dzen2.background: #1C1C1C
+
 

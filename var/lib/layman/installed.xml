@@ -1,35 +1,35 @@
 <repositories encoding="unicode" version="1.0">
   <repo priority="50" quality="experimental" status="official">
-    <name>aegypius</name>
-    <description>experimental ebuilds</description>
-    <homepage>http://aegypius.github.com/overlay/</homepage>
+    <name>qt</name>
+    <description>Official testing overlay for Qt and related packages, provided by Gentoo's Qt team. Contains ebuilds for Qt4 and Qt5 prereleases and live ebuilds, plus various (non-KDE) applications and utilities that use Qt.</description>
+    <homepage>https://github.com/gentoo/qt</homepage>
     <owner>
-      <email>github@aegypius.com</email>
-      <name>aegypius</name>
+      <email>qt@gentoo.org</email>
+      <name>Qt Team</name>
     </owner>
-    <source type="git">git://github.com/aegypius/overlay.git</source>
+    <source type="git">git://anongit.gentoo.org/proj/qt.git</source>
+    <feed>https://cgit.gentoo.org/proj/qt.git/atom/</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
-    <name>docker</name>
-    <description>Overlay for docker by dotCloud</description>
-    <homepage>https://github.com/tianon/docker-overlay</homepage>
+    <name>jorgicio</name>
+    <description>Gentoo repository made by Jorgicio.</description>
+    <homepage>https://github.com/jorgicio/jorgicio-gentoo</homepage>
     <owner>
-      <email>admwiggin@gmail.com</email>
-      <name>Tianon Gravi</name>
+      <email>jpizarro@inf.utfsm.cl</email>
+      <name>Jorge Pizarro Callejas</name>
     </owner>
-    <source type="git">git://github.com/tianon/docker-overlay.git</source>
-    <feed>https://github.com/tianon/docker-overlay/commits/master.atom</feed>
+    <source type="git">https://github.com/jorgicio/jorgicio-gentoo.git</source>
+    <feed>https://github.com/jorgicio/jorgicio-gentoo/commits/master.atom</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
-    <name>fkmclane</name>
-    <description>Personal overlay of fkmclane containing patched ebuilds and new ebuilds</description>
-    <homepage>https://github.com/fkmclane/overlay</homepage>
+    <name>anders-larsson</name>
+    <description>A few packages that are not hosted elsewhere.</description>
+    <homepage>https://github.com/anders-larsson/gentoo-overlay</homepage>
     <owner>
-      <email>fkmclane@gmail.com</email>
-      <name>Foster McLane</name>
+      <email>andla@thethundertemplars.com</email>
+      <name>Anders Larsson</name>
     </owner>
-    <source type="git">git://github.com/fkmclane/overlay.git</source>
-    <feed>https://github.com/fkmclane/overlay/commits/master.atom</feed>
+    <source type="git">https://github.com/anders-larsson/gentoo-overlay.git</source>
   </repo>
   <repo priority="50" quality="experimental" status="official">
     <name>java</name>
@@ -42,25 +42,26 @@
     <source type="git">git://anongit.gentoo.org/proj/java.git</source>
     <feed>https://cgit.gentoo.org/proj/java.git/atom/</feed>
   </repo>
-  <repo priority="50" quality="experimental" status="official">
-    <name>qt</name>
-    <description>Official testing overlay for Qt and related packages, provided by Gentoo's Qt team. Contains ebuilds for Qt4 and Qt5 prereleases and live ebuilds, plus various (non-KDE) applications and utilities that use Qt.</description>
-    <homepage>https://github.com/gentoo/qt</homepage>
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>fkmclane</name>
+    <description>Personal overlay of fkmclane containing patched ebuilds and new ebuilds</description>
+    <homepage>https://github.com/fkmclane/overlay</homepage>
     <owner>
-      <email>qt@gentoo.org</email>
-      <name>Qt Team</name>
+      <email>fkmclane@gmail.com</email>
+      <name>Foster McLane</name>
     </owner>
-    <source type="git">git://anongit.gentoo.org/proj/qt.git</source>
-    <feed>https://cgit.gentoo.org/proj/qt.git/atom/</feed>
+    <source type="git">git://github.com/fkmclane/overlay.git</source>
+    <feed>https://github.com/fkmclane/overlay/commits/master.atom</feed>
   </repo>
   <repo priority="50" quality="experimental" status="unofficial">
-    <name>anders-larsson</name>
-    <description>A few packages that are not hosted elsewhere.</description>
-    <homepage>https://github.com/anders-larsson/gentoo-overlay</homepage>
+    <name>docker</name>
+    <description>Overlay for docker by dotCloud</description>
+    <homepage>https://github.com/tianon/docker-overlay</homepage>
     <owner>
-      <email>andla@thethundertemplars.com</email>
-      <name>Anders Larsson</name>
+      <email>admwiggin@gmail.com</email>
+      <name>Tianon Gravi</name>
     </owner>
-    <source type="git">https://github.com/anders-larsson/gentoo-overlay.git</source>
+    <source type="git">git://github.com/tianon/docker-overlay.git</source>
+    <feed>https://github.com/tianon/docker-overlay/commits/master.atom</feed>
   </repo>
 </repositories>

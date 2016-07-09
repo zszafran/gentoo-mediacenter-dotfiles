@@ -16,8 +16,5 @@
 # NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
 /dev/sda2		/boot		ext2		noatime		1 2
 /dev/sda3		/		ext4		noatime		0 1
-#/dev/sdb1		/mnt/Torrents	ext4		noatime		0 0
-#/dev/sdc1		/mnt/TV		ext4		noatime		0 0
-#/dev/sdd1		/mnt/Movies	ext4		noatime		0 0
-#/dev/sde1		/mnt/Misc	ext4		noatime		0 0
 /dev/sdb		/mnt		btrfs		device=/dev/sdb,device=/dev/sdc,device=/dev/sdd,device=/dev/sde,noatime,compress=lzo,autodefrag,space_cache	0 0
+

@@ -1,1 +1,1 @@
-app-admin/conky X ncurses truetype vim-syntax iostate math -nvidia portmon
+app-admin/conky X ncurses truetype vim-syntax iostate math -nvidia portmon iostats

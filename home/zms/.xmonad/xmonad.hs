@@ -33,7 +33,7 @@ myFocusedBorderColor = "#ebebeb"
 myFocusFollowsMouse = False
 
 myXmonadBar = "dzen2 -x '0' -y '0' -h '24' -w '1000' -ta 'l' -dock"
-myStatusBar = "conky -c /home/zms/.xmonad/.conky_dzen | dzen2 -x '1000' -w '1410' -h '24' -ta 'r' -y '0' -dock"
+myStatusBar = "conky -c /home/zms/.xmonad/conky_dzen | dzen2 -x '1000' -w '1410' -h '24' -ta 'r' -y '0' -dock"
 
 myLogHook :: Handle -> X ()
 myLogHook h = dynamicLogWithPP $ defaultPP
@@ -131,3 +131,4 @@ main = do
            keys = myKeys,
            mouseBindings = myMouse
          }
+

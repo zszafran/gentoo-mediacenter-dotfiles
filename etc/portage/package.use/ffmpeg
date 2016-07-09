@@ -1,1 +1,1 @@
-media-video/ffmpeg aacplus amr bluray bs2b chromaprint cpudetection faac gpl libsoxr mipdsprl mipdspr2 mipsfpu nvenc openh264 opus quvi twolame vpx webp x265 zimg X alsa bzip2 fdk jack libass libv4l mp3 openal opengl pulseaudio threads v4l x264 zlib 
+media-video/ffmpeg aacplus amr bluray bs2b chromaprint cpudetection faac gpl libsoxr mipdsprl mipdspr2 mipsfpu nvenc openh264 opus quvi twolame vpx webp x265 zimg X alsa bzip2 fdk jack libass libv4l mp3 openal opengl pulseaudio threads v4l x264 zlib network 

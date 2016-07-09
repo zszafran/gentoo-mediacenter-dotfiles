@@ -47,3 +47,4 @@ autocmd BufWinEnter *.js let w:m6=matchadd('StyleGuideError', '\[\s\+.*\s\+\]', 
 autocmd BufNewFile,BufRead *.gss set filetype=css
 
 let g:Powerline_symbols = "fancy"
+

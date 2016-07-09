@@ -1,5 +1,0 @@
-app-text/ghostscript-gpl cups
-app-text/poppler cxx utils lcms
-app-text/xmlto text
-dev-libs/nettle gmp
-www-client/google-chrome plugins
